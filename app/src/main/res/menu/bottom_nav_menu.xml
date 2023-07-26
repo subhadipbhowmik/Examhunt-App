@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_nav_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/item_pyq"
+        android:enabled="true"
+        android:icon="@drawable/ic_nav_pyq"
+        android:title="@string/pyq" />
+    <item
+        android:id="@+id/item_tips"
+        android:enabled="true"
+        android:icon="@drawable/ic_nav_tips"
+        android:title="@string/tips" />
+    <item
+        android:id="@+id/item_join"
+        android:enabled="true"
+        android:icon="@drawable/ic_nav_join"
+        android:title="@string/join" />
+
+</menu>

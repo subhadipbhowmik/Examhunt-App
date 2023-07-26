@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="none"
+    tools:context=".Pyq2018">
+
+    <!--    all items-->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="7"
+        android:columnCount="1">
+
+        <!--bengali 2023 card card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bengali_sub"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="50dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/pyqBeng2018Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="2018"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--english 2023 card card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/join_whatsapp_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/english_sub"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="50dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/pyqEng2018Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="2018"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 card card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/math_sub"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="50dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/pyqMath2018Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="2018"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--history 2023 card card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/history_sub"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="50dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/pyqHistory2018Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="2018"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--geography 2023 card card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/geography_sub"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="50dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/pyqGeo2018Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="2018"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--physics 2023 card card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/physics_sub"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="25dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/pyqPhysics2018Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="2018"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- 2023 card card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/biology_sub"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="25dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/pyqBiology2018Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="2018"
+                    app:icon="@drawable/ic_cloud_download" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</ScrollView>

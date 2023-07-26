@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">Examhunt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<!--    menus -->
+<string name="home">Home</string>
+    <string name="pyq">PYQ</string>
+    <string name="tips">Tips</string>
+    <string name="join">Join</string>
+
+<!--    exam routine -->
+    <string name="day">দিন</string>
+    <string name="date">তারিখ</string>
+    <string name="sub"> বিষয় </string>
+
+
+<!--    exam dates -->
+    <string name="date_01">02.02.2024</string>
+    <string name="date_02">03.02.2024</string>
+    <string name="date_03">05.02.2024</string>
+    <string name="date_04">06.02.2024</string>
+    <string name="date_05">08.02.2024</string>
+    <string name="date_06">09.02.2024</string>
+    <string name="date_07">10.02.2024</string>
+    <string name="date_08">12.02.2024</string>
+
+
+    <string name="day_01">রাবিবার</string>
+    <string name="day_02">সোমবার</string>
+    <string name="day_03">মঙ্গলবার</string>
+    <string name="day_04">বুধবার</string>
+    <string name="day_05">বৃহস্পতিবার</string>
+    <string name="day_06">শুক্রবার</string>
+    <string name="day_07">শনিবার</string>
+
+    <string name="developer">Shubhadip Bhowmik</string>
+<string name="my_quote"> "One day, in retrospect, the years of struggle will strike you as the most beautiful." </string>
+<!--    about text -->
+<string name="examhunt_about">এই অ্যাপে তোমরা মাধ্যমিকের সমস্ত সাজেশন নোটস এবং বিগত বছরের প্রশ্নপত্র সবকিছু পেয়ে যাবে। অ্যাপটি শুধুমাত্র মাধ্যমিক ছাত্র-ছাত্রীদের জন্য বানানো হয়েছে।</string>
+<string name="exam_routine_2024">মাধ্যামিক রুটিন ২০২৪</string>
+
+    <!--    subject strings -->
+    <string name="first_lang">প্রথম ভাষা</string>
+    <string name="second_lang">দ্বিতীয় ভাষা</string>
+
+    <string name="bengali_sub">বাংলা</string>
+    <string name="english_sub">ইংরেজি</string>
+    <string name="math_sub">গণিত</string>
+    <string name="history_sub">ইতিহাস</string>
+    <string name="geography_sub">ভূগোল</string>
+    <string name="physics_sub">ভৌত বিজ্ঞান</string>
+    <string name="biology_sub">জীবন বিজ্ঞান</string>
+    <string name="extra_sub"> ঐচ্ছিক বিষয়</string>
+
+
+    <string name="routine">পরীক্ষার রুটিন </string>
+
+    <!--    bengali chapters -->
+    <string name="ben_chap_1">জ্ঞানচক্ষু</string>
+    <string name="ben_chap_2">অসুখী একজন </string>
+    <string name="ben_chap_3">আফ্রিকা</string>
+
+    <string name="ben_chap_4_part1">হারিয়ে যাওয়া </string>
+    <string name="ben_chap_4_part2"> কলি কলম</string>
+
+    <string name="ben_chap_5">বহুরূপী </string>
+    <string name="ben_chap_6">অভিষেক</string>
+    <string name="ben_chap_7">সিরাজদ্দৌলা</string>
+    <string name="ben_chap_8">প্রলয়ল্লাস</string>
+    <string name="ben_chap_9">পথের দাবী</string>
+    <string name="ben_chap_10">সিন্ধুতীরে</string>
+
+    <string name="ben_chap_11_part1">অস্ত্রের বিরুদ্ধে </string>
+    <string name="ben_chap_11_part2"> গান </string>
+
+    <string name="ben_chap_12_part1">বাংলা ভাষায়</string>
+    <string name="ben_chap_12_part2"> বিজ্ঞান</string>
+
+    <string name="ben_chap_13">নদীর বিদ্রোহ</string>
+    <string name="ben_chap_14">অদল বদল </string>
+    <string name="ben_chap_15"> কোনি </string>
+    <string name="ben_chap_16">বাংলা ব্যাকরণ</string>
+    <string name="ben_chap_17"> রচনা </string>
+    <string name="ben_chap_18">বঙ্গানুবাদ </string>
+
+    <!--    english chapters -->
+    <string name="eng_chap_1">Father’s Help</string>
+
+    <string name="eng_chap_2_part1"> The Passing  </string>
+    <string name="eng_chap_2_part2"> Away of Bapu</string>
+
+    <string name="eng_chap_3_part1">Our Runaway</string>
+    <string name="eng_chap_3_part2">Kite</string>
+
+    <string name="eng_chap_4">The Cat</string>
+    <string name="eng_chap_5">Fable</string>
+
+    <string name="eng_chap_6_part1">My Own</string>
+    <string name="eng_chap_6_part2">True Family</string>
+
+    <string name="eng_chap_7">Sea Fever</string>
+    <string name="eng_chap_8">The Snail</string>
+    <string name="eng_chap_9">Grammars</string>
+    <string name="eng_chap_10">Writings</string>
+
+    <!--    math chapters name -->
+    <string name="math_chap_1_part1">একচল বিশিষ্ট</string>
+    <string name="math_chap_1_part2">দ্বিঘাত সমীকরণ</string>
+
+    <string name="math_chap_2">সরল সুদকষা</string>
+
+    <string name="math_chap_3_part1">বৃত্ত সম্পর্কিত </string>
+    <string name="math_chap_3_part2">উপপাদ্য</string>
+
+    <string name="math_chap_4">আয়তঘন</string>
+
+    <string name="math_chap_5_part1">অনুপাত ও</string>
+    <string name="math_chap_5_part2">সমানুপাত</string>
+
+    <string name="math_chap_6_part1">চক্রবৃদ্ধি সুদ ও </string>
+    <string name="math_chap_6_part2">সমাহার বৃদ্ধি</string>
+
+    <string name="math_chap_7_part1">ত্তস্থ কোণ</string>
+    <string name="math_chap_7_part2">সম্পর্কিত </string>
+    <string name="math_chap_7_part3"> উপপাদ্য</string>
+
+    <string name="math_chap_8_part1">লম্ব বৃত্তাকার</string>
+    <string name="math_chap_8_part2"> চোঙ</string>
+
+    <string name="math_chap_9">দ্বিঘাত করণী </string>
+
+    <string name="math_chap_10_part1">বৃত্তস্থ চতুর্ভুজ</string>
+    <string name="math_chap_10_part2">সম্পর্কিত উপপাদ্য</string>
+
+    <string name="math_chap_11_part1">ত্রিভুজের পরিবৃত্ত </string>
+    <string name="math_chap_11_part2">সংক্রান্ত উপপাদ্য</string>
+
+    <string name="math_chap_12">গোলক </string>
+    <string name="math_chap_13">ভেদ</string>
+
+    <string name="math_chap_14_part1">অংশীদারি</string>
+    <string name="math_chap_14_part2">কারবার</string>
+
+    <string name="math_chap_15_part1">বৃত্তের স্পর্শক</string>
+    <string name="math_chap_15_part2">সংক্রান্ত উপপাদ্য</string>
+
+    <string name="math_chap_16">বৃত্তাকার শঙ্কু</string>
+
+    <string name="math_chap_17_part1">বৃত্তের স্পর্শক </string>
+    <string name="math_chap_17_part2"> অঙ্কন </string>
+
+    <string name="math_chap_18">সদৃশ্যতা</string>
+
+    <string name="math_chap_19_part1">বিভিন্ন ঘনবস্তু </string>
+    <string name="math_chap_19_part2">সংক্রান্ত সমস্যা</string>
+
+    <string name="math_chap_20_part1">ত্রিকোণমিতি কোণ </string>
+    <string name="math_chap_20_part2">পরিমাপের ধারণা</string>
+
+    <string name="math_chap_21_part1">পিথাগোরাসের </string>
+    <string name="math_chap_21_part2"> উপপাদ্য</string>
+
+    <string name="math_chap_22_part1">ত্রিকোণমিতিক </string>
+    <string name="math_chap_22_part2"> অনুপাত ও </string>
+    <string name="math_chap_22_part3">অভেদাবলি</string>
+
+
+    <string name="math_chap_23_part1">পূরক কোণের </string>
+    <string name="math_chap_23_part2">ত্রিকোণমিতিক </string>
+    <string name="math_chap_23_part3"> অনুপাত</string>
+
+    <string name="math_chap_24_part1"> উচ্চতা ও </string>
+    <string name="math_chap_24_part2"> দূরত্ব</string>
+
+    <string name="math_chap_25_part1">গড় মধ্যমা ও </string>
+    <string name="math_chap_25_part2">সংখ্যাগুরু মান</string>
+
+    <!--    history chapters -->
+    <string name="his_chap_1_part1">ইতিহাসের </string>
+    <string name="his_chap_1_part2"> ধারণা</string>
+
+
+    <string name="his_chap_2_part1">সংস্কার বৈশিষ্ট্য </string>
+    <string name="his_chap_2_part2">ও পর্যালোচনা</string>
+
+
+    <string name="his_chap_3_part1">প্রতিরোধ ও বিদ্রোহ </string>
+    <string name="his_chap_3_part2"> বৈশিষ্ট্য ও বিশ্লেষণ</string>
+
+    <string name="his_chap_4_part1"> সংঘব্ধতার </string>
+    <string name="his_chap_4_part2">  গোড়ার কথা</string>
+
+    <string name="his_chap_5_part1"> বিকল্প চিন্তা </string>
+    <string name="his_chap_5_part2">ও উদ্যোগ</string>
+
+    <string name="his_chap_6_part1"> বিশ শতকের, </string>
+    <string name="his_chap_6_part2"> ভারতে কৃষক, </string>
+    <string name="his_chap_6_part3"> শ্রমিক ও বামপন্থী  </string>
+    <string name="his_chap_6_part4"> আন্দোলন </string>
+
+    <string name="his_chap_7_part1"> বিশ শতকের,</string>
+    <string name="his_chap_7_part2"> ভারতে নারী, </string>
+    <string name="his_chap_7_part3"> ছাত্র ও প্রান্তিক </string>
+    <string name="his_chap_7_part4"> জনগোষ্ঠীর আন্দোলন</string>
+
+    <string name="his_chap_8_part1"> উত্তর ঔপনিবেশিক </string>
+    <string name="his_chap_8_part2"> ভারত </string>
+
+    <!--    geography chapters -->
+
+    <string name="geo_chap_1_part1">বহির্জাত </string>
+    <string name="geo_chap_1_part2"> প্রক্রিয়া</string>
+
+    <string name="geo_chap_2">বায়ুমণ্ডল</string>
+    <string name="geo_chap_3">বারিমন্ডল</string>
+    <string name="geo_chap_4">জয়ারভাটা</string>
+    <string name="geo_chap_5">ভারত</string>
+
+
+    <string name="geo_chap_6_part1">উপগ্রহ ও </string>
+    <string name="geo_chap_6_part2">ভূবৈচিত্র্যসূচক </string>
+    <string name="geo_chap_6_part3"> মানচিত্র</string>
+
+
+    <!--    physics chapters -->
+    <string name="phy_chap_1_part1">পরিবেশের</string>
+    <string name="phy_chap_1_part2">জন্য ভাবনা</string>
+
+    <string name="phy_chap_2_part1">গ্যাসের </string>
+    <string name="phy_chap_2_part2"> আচরণ</string>
+
+    <string name="phy_chap_3_part1">রাসায়নিক </string>
+    <string name="phy_chap_3_part2"> গণনা</string>
+
+    <string name="phy_chap_4_part1">তাপের </string>
+    <string name="phy_chap_4_part2"> ঘটনাসমূহ</string>
+
+    <string name="phy_chap_5">আলো</string>
+    <string name="phy_chap_6">চলতড়িৎ</string>
+
+    <string name="phy_chap_7_part1">পরমাণুর </string>
+    <string name="phy_chap_7_part2"> নিউক্লিয়াস</string>
+
+    <!--    biology chapters -->
+    <string name="bio_chap_1_part1">জীবজগতে </string>
+    <string name="bio_chap_1_part2">নিয়ন্ত্রণ ও  </string>
+    <string name="bio_chap_1_part3"> সমন্বয় </string>
+
+    <string name="bio_chap_2_part1">জীবনের  </string>
+    <string name="bio_chap_2_part2"> প্রবমানতা </string>
+
+    <string name="bio_chap_3_part1">বংশগতি এবং  </string>
+    <string name="bio_chap_3_part2">কয়েকটি সাধারণ</string>
+    <string name="bio_chap_3_part3">জিনগত রোগ </string>
+
+    <string name="bio_chap_4_part1">অভিব্যক্তি </string>
+    <string name="bio_chap_4_part2"> অভিযোজন </string>
+
+    <string name="bio_chap_5_part1">পরিবেশ, তার  </string>
+    <string name="bio_chap_5_part2">সম্পদ এবং  </string>
+    <string name="bio_chap_5_part3">তাদের সংরক্ষণ </string>
+
+</resources>

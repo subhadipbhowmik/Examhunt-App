@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    tools:context=".HomeFragment">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="4"
+            android:columnCount="2">
+
+      <!--bengali card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/homeSubBenCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:backgroundTint="@color/white"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp" >
+                
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_bengali_book"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bengali_sub"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+<!--            english card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/homeSubEngCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_english_book"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/english_sub"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        <!--    math card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/homeSubMathCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_math_book"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/math_sub"
+                android:textStyle="bold"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+        <!--    history card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/homeSubHistCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_history_book"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/history_sub"
+                android:textStyle="bold"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+            <!--    geography card -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/homeSubGeoCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_geography_book"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/geography_sub"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--    physics card -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/homeSubPhysicsCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_physics_book"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/physics_sub"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--    biology card -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/homeSubBiologyCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_biology_book"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/biology_sub"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--    exam routine card -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/homeRoutineCard"
+                android:backgroundTint="@color/white"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_exam_routine"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/routine"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+    </FrameLayout>
+</RelativeLayout>

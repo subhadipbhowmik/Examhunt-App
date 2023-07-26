@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="none"
+    tools:context=".MathChapterFragment">
+
+    <!--    all items-->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="25"
+        android:columnCount="1">
+
+        <!--math 2023 1 chapters -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_1_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_1_part2"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        />
+
+                </LinearLayout>
+
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap1Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2 chapters -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/math_chap_2"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="25dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap2Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- math chapter 3 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_3_part1"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_3_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap3Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math  4th chap -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/math_chap_4"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="50dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap4Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 5th chap -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="40dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_5_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_5_part2"
+                        android:gravity="center_vertical"
+
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap5Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math  6th chap -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_6_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_6_part2"
+                        android:gravity="center_vertical"
+
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap6Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- math  7th chap-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="35dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_7_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_7_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_7_part3"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap7Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 8th chapters -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_8_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_8_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap8Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 9th chapters -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/math_chap_9"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="30dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap9Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- math 2023 10th chapters-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_10_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_10_part2"
+                        android:gravity="center_vertical"
+
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap10Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 11th chap -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_11_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_11_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap11Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 12th chap -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="11"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/math_chap_12"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="60dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp" />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap12Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 13th chap -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="12"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/math_chap_13"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="75dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap13Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- math 2023 card 14 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="13"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="40dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_14_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_14_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap14Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 15 chapters -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="14"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_15_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_15_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap15Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 16 chapters -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="15"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/math_chap_16"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="25dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap16Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- math 2023 17 chapters-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="16"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_17_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_17_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap17Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 18 chapter -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="17"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/math_chap_18"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="45dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalpurush"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap18Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 19 chapter -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="18"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_19_part1"
+                        android:gravity="center_vertical"
+
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_19_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap19Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 20 chapter -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="19"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_20_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_20_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap20Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 21 chapter -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="20"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_21_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_21_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap21Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 22 chapter -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="21"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_22_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_22_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_22_part3"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap22Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 23 chapter -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="22"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_23_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_23_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_23_part3"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap23Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 24 chapter -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="23"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_24_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_24_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap24Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--math 2023 25 chapter -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="24"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_bengali_book"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_25_part1"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/math_chap_25_part2"
+                        android:gravity="center_vertical"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    android:id="@+id/mathChap25Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="PDF"
+                    app:icon="@drawable/ic_cloud_download"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+</ScrollView>
