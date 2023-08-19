@@ -34,14 +34,15 @@
                 android:orientation="horizontal"
                 android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-                android:gravity="center">
+                android:padding="10dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/ic_bengali_book"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:src="@drawable/number_01"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -105,14 +106,15 @@
                 android:orientation="horizontal"
                 android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-                android:gravity="center">
+              android:padding="10dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/ic_bengali_book"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:src="@drawable/number_02"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -158,14 +160,15 @@
                 android:orientation="horizontal"
                 android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-                android:gravity="center">
+                android:padding="10dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/ic_bengali_book"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:src="@drawable/number_03"/>
 
 
                     <TextView

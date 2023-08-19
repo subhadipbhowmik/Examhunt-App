@@ -489,7 +489,8 @@
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
                     android:src="@drawable/number_09"/>
 
                 <TextView
@@ -597,7 +598,8 @@
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
                     android:src="@drawable/number_11"/>
 
                 <LinearLayout
