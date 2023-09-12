@@ -20,8 +20,6 @@ class Pyq2017 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        // Inflate the layout for this fragment
-//        return inflater.inflate(R.layout.fragment_pyq2017, container, false)
 
         _binding = FragmentPyq2017Binding.inflate(inflater, container, false)
 

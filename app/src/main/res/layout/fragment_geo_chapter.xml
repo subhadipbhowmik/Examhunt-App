@@ -47,7 +47,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginRight="30dp"
+                    android:layout_marginEnd="60dp"
                     android:layout_height="wrap_content">
                     <TextView
                         android:layout_width="wrap_content"
@@ -106,7 +106,7 @@
                 android:orientation="horizontal"
                 android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-              android:padding="10dp">
+               android:padding="10dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -121,7 +121,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/geo_chap_2"
                     android:gravity="center_vertical"
-                    android:layout_marginRight="25dp"
+                    android:layout_marginEnd="60dp"
                     android:textStyle="bold"
                     android:fontFamily="@font/kalpurush"
                     android:textSize="20sp"
@@ -174,7 +174,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="60dp"
                         android:text="@string/geo_chap_3"
                         android:gravity="center_vertical"
                         android:fontFamily="@font/kalpurush"
@@ -217,21 +217,22 @@
                 android:orientation="horizontal"
                 android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-                android:gravity="center">
+                android:padding="10dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/ic_bengali_book"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:src="@drawable/number_04"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/geo_chap_4"
                     android:gravity="center_vertical"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginEnd="60dp"
                     android:textStyle="bold"
                     android:fontFamily="@font/kalpurush"
                     android:textSize="20sp"
@@ -270,20 +271,21 @@
                 android:orientation="horizontal"
                 android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-                android:gravity="center">
+                android:padding="10dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/ic_bengali_book"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:src="@drawable/number_05"/>
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="40dp"
+                        android:layout_marginEnd="90dp"
                         android:text="@string/geo_chap_5"
                         android:gravity="center_vertical"
                         android:fontFamily="@font/kalpurush"
@@ -326,19 +328,20 @@
                 android:orientation="horizontal"
                 android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-                android:gravity="center">
+              android:padding="10dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/ic_bengali_book"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:src="@drawable/number_06"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginEnd="40dp"
                     android:layout_height="wrap_content">
                     <TextView
                         android:layout_width="wrap_content"

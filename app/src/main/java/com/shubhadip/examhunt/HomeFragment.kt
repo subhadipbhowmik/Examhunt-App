@@ -1,12 +1,12 @@
 package com.shubhadip.examhunt
 
+import android.app.FragmentTransaction
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.fragment.app.FragmentTransaction
 import com.shubhadip.examhunt.databinding.FragmentHomeBinding
 import com.shubhadip.examhunt.databinding.FragmentPyqBinding
 
@@ -20,12 +20,10 @@ class HomeFragment : Fragment() {
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
 
-
             // open all bengali chapters
-
             binding.homeSubBenCard.setOnClickListener {
                 val benChapterFragment = BenChapterFragment()
-                val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+                val transaction: androidx.fragment.app.FragmentTransaction = requireFragmentManager().beginTransaction()
                 transaction.replace(R.id.frame_layout, benChapterFragment)
                 transaction.addToBackStack(null)
                 transaction.commit()
@@ -34,7 +32,7 @@ class HomeFragment : Fragment() {
         // open english chapters
         binding.homeSubEngCard.setOnClickListener {
             val engChapterFragment = EngChapterFragment()
-            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            val transaction: androidx.fragment.app.FragmentTransaction = requireFragmentManager().beginTransaction()
             transaction.replace(R.id.frame_layout, engChapterFragment)
             transaction.addToBackStack(null)
             transaction.commit()
@@ -43,7 +41,7 @@ class HomeFragment : Fragment() {
         // open math chapters
         binding.homeSubMathCard.setOnClickListener {
             val mathChapterFragment = MathChapterFragment()
-            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            val transaction: androidx.fragment.app.FragmentTransaction = requireFragmentManager().beginTransaction()
             transaction.replace(R.id.frame_layout, mathChapterFragment)
             transaction.addToBackStack(null)
             transaction.commit()
@@ -52,7 +50,7 @@ class HomeFragment : Fragment() {
         // open history chapters
         binding.homeSubHistCard.setOnClickListener {
             val histChapterFragment = HisChapterFragment()
-            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            val transaction: androidx.fragment.app.FragmentTransaction = requireFragmentManager().beginTransaction()
             transaction.replace(R.id.frame_layout, histChapterFragment)
             transaction.addToBackStack(null)
             transaction.commit()
@@ -62,7 +60,7 @@ class HomeFragment : Fragment() {
 
         binding.homeSubGeoCard.setOnClickListener {
             val geoChapterFragment = GeoChapterFragment()
-            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            val transaction: androidx.fragment.app.FragmentTransaction = requireFragmentManager().beginTransaction()
             transaction.replace(R.id.frame_layout, geoChapterFragment)
             transaction.addToBackStack(null)
             transaction.commit()
@@ -72,7 +70,7 @@ class HomeFragment : Fragment() {
 
         binding.homeSubPhysicsCard.setOnClickListener {
             val phyChapterFragment = PhyChapterFragment()
-            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            val transaction: androidx.fragment.app.FragmentTransaction = requireFragmentManager().beginTransaction()
             transaction.replace(R.id.frame_layout, phyChapterFragment)
             transaction.addToBackStack(null)
             transaction.commit()
@@ -82,7 +80,7 @@ class HomeFragment : Fragment() {
 
         binding.homeSubBiologyCard.setOnClickListener {
             val bioChapterFragment = BioChapterFragment()
-            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            val transaction: androidx.fragment.app.FragmentTransaction = requireFragmentManager().beginTransaction()
             transaction.replace(R.id.frame_layout, bioChapterFragment)
             transaction.addToBackStack(null)
             transaction.commit()
@@ -92,13 +90,11 @@ class HomeFragment : Fragment() {
 
         binding.homeRoutineCard.setOnClickListener {
             val routineFragment = ExamRoutineFragment()
-            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            val transaction: androidx.fragment.app.FragmentTransaction = requireFragmentManager().beginTransaction()
             transaction.replace(R.id.frame_layout, routineFragment)
             transaction.addToBackStack(null)
             transaction.commit()
         }
-
-
 
 
 
