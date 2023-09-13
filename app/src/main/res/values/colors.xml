@@ -10,6 +10,7 @@
     <color name="white">#FFFFFFFF</color>
 
 <!--    custom colour -->
+
     <color name="custom_color_primary">#643AE7</color>
     <color name="custom_color_secondary">#FF8F00</color>
     <color name="custom_color_secondary_light">#FFD299</color>

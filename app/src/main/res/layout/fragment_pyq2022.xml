@@ -10,7 +10,7 @@
     <!--    all items-->
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:rowCount="7"
         android:columnCount="1">
 
@@ -32,15 +32,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-                android:gravity="center">
+                android:padding="10dp"
+                android:gravity="center_vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
                     android:src="@drawable/ic_bengali_book"/>
 
                 <TextView
@@ -48,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/bengali_sub"
                     android:gravity="center_vertical"
-                    android:layout_marginRight="50dp"
+                    android:layout_marginEnd="50dp"
                     android:textStyle="bold"
                     android:fontFamily="@font/kalpurush"
                     android:textSize="20sp"
@@ -89,23 +90,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-                android:gravity="center">
+                android:padding="10dp"
+                android:gravity="center_vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="50dp"
-                    android:src="@drawable/ic_bengali_book"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:src="@drawable/ic_english_book"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/english_sub"
                     android:gravity="center_vertical"
-                    android:layout_marginRight="50dp"
+                    android:layout_marginEnd="50dp"
                     android:textStyle="bold"
                     android:fontFamily="@font/kalpurush"
                     android:textSize="20sp"
@@ -145,23 +147,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-                android:gravity="center">
+                android:padding="10dp"
+                android:gravity="center_vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="50dp"
-                    android:src="@drawable/ic_bengali_book"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:src="@drawable/ic_math_book"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/math_sub"
                     android:gravity="center_vertical"
-                    android:layout_marginRight="50dp"
+                    android:layout_marginEnd="50dp"
                     android:textStyle="bold"
                     android:fontFamily="@font/kalpurush"
                     android:textSize="20sp"
@@ -201,16 +204,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-                android:gravity="center">
+                android:padding="10dp"
+                android:gravity="center_vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="50dp"
-                    android:src="@drawable/ic_bengali_book"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:src="@drawable/ic_history_book"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -257,23 +261,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-                android:gravity="center">
+                android:padding="10dp"
+                android:gravity="center_vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="50dp"
-                    android:src="@drawable/ic_bengali_book"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:src="@drawable/ic_geography_book"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/geography_sub"
                     android:gravity="center_vertical"
-                    android:layout_marginRight="50dp"
+                    android:layout_marginEnd="50dp"
                     android:textStyle="bold"
                     android:fontFamily="@font/kalpurush"
                     android:textSize="20sp"
@@ -285,7 +290,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
-                    android:text="2022"
+                    android:text="@string/year_2022"
                     app:icon="@drawable/ic_cloud_download"
                     />
 
@@ -313,23 +318,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="center_vertical"
+                android:padding="10dp"
                 android:layout_margin="8dp"
-                android:gravity="center">
+                android:gravity="center_vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="25dp"
-                    android:src="@drawable/ic_bengali_book"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:src="@drawable/ic_physics_book"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/physics_sub"
                     android:gravity="center_vertical"
-                    android:layout_marginRight="25dp"
+                    android:layout_marginEnd="25dp"
                     android:textStyle="bold"
                     android:fontFamily="@font/kalpurush"
                     android:textSize="20sp"
@@ -341,7 +347,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
-                    android:text="2022"
+                    android:text="@string/year_2022"
                     app:icon="@drawable/ic_cloud_download"
                     />
 
@@ -369,16 +375,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="center_vertical"
                 android:layout_margin="8dp"
-                android:gravity="center">
+                android:padding="10dp"
+                android:gravity="center_vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="25dp"
-                    android:src="@drawable/ic_bengali_book"/>
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:src="@drawable/ic_biology_book"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -400,8 +407,6 @@
                     android:text="2022"
                     app:icon="@drawable/ic_cloud_download"
                     />
-
-
 
             </LinearLayout>
 
